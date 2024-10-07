@@ -30,6 +30,16 @@ body {
     font-family: Whitney, "Helvetica neue", Helvetica, Arial, sans-serif
 }
 
+.wave {
+    display: block;
+    width: 100%;
+    color: #F6F6F6;
+}
+
+.rotate {
+    transform: scaleY(-1);
+}
+
 /* HEADER  */
 .row {
     display: flex;
@@ -139,6 +149,8 @@ body {
 
 .second-section.fourth-section {
     background-color: #ffffff;
+
+
 }
 
 .row-1 {
@@ -180,13 +192,13 @@ p {
 
 .third-section {
     /* DEBUG */
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
 
 .fifth-section {
     /* DEBUG */
 
-    background-color: #d3d3d3;
+    background-color: #F6F6F6;
 }
 
 .row-2 {
@@ -212,6 +224,10 @@ h3 {
     font-size: 1.5em;
     margin-top: 60px;
     margin-bottom: 40px;
+}
+
+.svg-stars {
+    display: inline-grid;
 }
 
 .button.mac {
@@ -246,7 +262,7 @@ h3 {
     width: 40%;
     font-size: 1em;
     color: #ffffff;
-    
+
     /* DEBUG
     background-color: #f08080; */
 
@@ -278,6 +294,7 @@ h5 {
     margin-bottom: 20px;
 
 }
+
 .product-list {
     width: 15%;
     color: #FFFFFF;
@@ -295,11 +312,12 @@ li {
 hr {
     border: 1px solid #7289DA;
 }
+
 .row-3 {
-   
+
     display: flex;
-    justify-content: space-between; 
-    
+    justify-content: space-between;
+
     /* DEBUG
     background-color: #7fffd4;
     border: 1px dashed black; */
@@ -319,7 +337,7 @@ hr {
     border-radius: 50px;
     text-align: center;
     margin-top: 20px;
-    
+
     background-color: #7289DA;
     color: #ffffff;
 }
