@@ -292,11 +292,17 @@ li {
     font-size: 0.8em;
 }
 
+hr {
+    border: 1px solid #7289DA;
+}
 .row-3 {
-    background-color: #7fffd4;
-    border: 1px dashed black;
+   
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    
+    /* DEBUG
+    background-color: #7fffd4;
+    border: 1px dashed black; */
 
 }
 
@@ -306,10 +312,22 @@ li {
     padding: 10px 0;
 }
 
-.ended-logo {
+.btn-login {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 0.8em;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 20px;
+    
+    background-color: #7289DA;
+    color: #ffffff;
+}
+
+/* .ended-logo {
     background-color: #ffb6c1;
 }
 
 .ended-login {
     background-color: #ffb6c1;
-}
+} */
